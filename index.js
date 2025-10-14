@@ -70,7 +70,7 @@ function hideAllMessages() {
 
 function setup() {
   // Get random number
-  targetNumber = getRandomNumber(1, 100);
+  targetNumber= getRandomNumber(1, 100);
   console.log(`target Number: ${targetNumber}`);
 
   // Reset number of attempts
