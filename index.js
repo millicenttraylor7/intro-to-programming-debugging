@@ -57,7 +57,7 @@ function checkGuess() {
     guessInput.disabled = true;
   }
 
-  guessInput.value = '';
+  guessInput.value = "";
 
   resetButton.style.display = '';
 }
