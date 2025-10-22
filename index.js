@@ -74,8 +74,7 @@ function setup() {
   console.log(`target Number: ${targetNumber}`);
 
   // Reset number of attempts
-  const maxNumberOfAttempts = 5;
-
+  attempts = 0;
   // Enable the input and submit button
   submitButton.disabled = false;
   guessInput.disabled = false;
